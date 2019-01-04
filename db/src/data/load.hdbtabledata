@@ -1,10 +1,11 @@
 {
 "format_version": 1,
+"subfolder": "append",
 "imports": [{
-  "target_table": "cdsItems.Question",
+  "target_table": "dbydchecklist.db.data::cdsItems.Question",
   "source_data": {
     "data_type": "CSV",
-    "file_name": "question.csv",
+    "file_name": "dbydchecklist.db.data::question.csv",
     "has_header": false,
     "dialect": "HANA",
     "type_config": {
@@ -27,7 +28,7 @@
     "LAYER" : 4,
     "QUESTION" : 5,
     "DESCRIPTION" : 6,
-    "USAGE" : 9
+    "USAGE" : 7
   }
 }]
 }

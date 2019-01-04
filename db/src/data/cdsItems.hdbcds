@@ -6,7 +6,7 @@ context cdsItems {
 	type Description : String (2048);
 	type Purpose : String (1024);
 	type ItemComment : String (256);
-	type QuestionID : String (7);
+	type QuestionID : String (8);
 	type QuestionText : String (128); 
 	type QuestionDescription : String (512);
 	type Answer : String (1);
