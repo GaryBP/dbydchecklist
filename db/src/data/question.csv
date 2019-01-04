@@ -1,0 +1,40 @@
+QID; VERSION; PARENT; LAYER; QUESTION;DESCRIPTION;USAGE
+ETAMAIN, 1, , 1, Is it easy to access?, Is the proposed solution easy to access and to use?, B
+ETA1, 1, ETAMAIN, 2, How will this be acquired?, Is is easy to acquire a product which is accessible and well maintained?  Or must something new be built?, B
+ETA1A, 1, ETA1, 3, Does this replace or change an existing solution?, , B
+ETA1B, 1, ETA1, 3, Can this be purchased as Software as a Service (SaaS)?, , B
+ETA2, 1, ETAMAIN, 2, Is it on-line, either a web or mobile application?, , B
+ETA3, 1, ETAMAIN, 2, Does it support or add support for multiple access channels?, , B
+ETA4, 1, ETAMAIN, 2, Does it support the Internationalization and Accessibility Guidelines?, , B
+DWCMAIN, 1, , 1, Was it designed with the client?, Was the solution designed for the Client, with the Client in mind or was the Client included in the design process?, B
+DWC1, 1, DWCMAIN, 2, Who will use this solution?, Is this solution for internal use or external use or both?, B
+DWC1A, 1, DWC1, 3, Will it be used by interal staff?, , B
+DWC1B, 1, DWC1, 3, Will it be used by external clients?, , B
+DWC2, 1, DWCMAIN, 2, How will people and machines access this colution?, Can the solution work with future access channels like chat and voice or telephone?, B
+DWC2A, 1, DWC2, 3, Does it support multple user intefaces - GUI and Voice?, , B
+DWC2B, 1, DWC2, 3, Does it support an API?, , B
+DWC3, 1, DWCMAIN, 2, Is there an alternative for people who cannot access this digital solution?, , B
+DWC4,1 DWCMAIN, 2, How disruptive is this?, Will the new soltuon cause small or large disruption?  For a short or a long time?, B
+DWC4A, 1, DWC4, 3, Will this cause minor disruption for major improvement?, , B
+DWC4B, 1, DWC4, 3, Or cause major disruption to existing processes?, , B
+VFMMAIN, 1, , 1, Is it value for money?, Is the solution value for money throghout its full lifecycle?, B
+VFM1, 1, VFMMAIN, 2, Will purchasing follow the guidelines with a Value for Money consideration?, , B
+VFM2, 1, VFMMAIN, 2, What will this cost?, Have you considered all costs? Business and ICT? Lost Productivity?, B
+VFM2A, 1, VFM2, 3, Does the cost include cost of changing business process and retraining?, , B
+VFM2B, 1, VFM2, 3, Does the cost include full ICT lifecycle costs?, , B
+VFM2C, 1, VFM2, 3, Will it cost more if this is not done?, , B
+VFM3, 1, VFMMAIN, 2, Will this improve automation?, Will a manual process be automated or an automated process be made easier?, B
+VFM3A, 1, VFM3, 3, Will this automate a manual, paper-based process?, , B
+VFM3B, 1, VFM3, 3, Will this reduce red-tape or save clients money?, , B
+VFM4, 1, VFMMAIN, 2, Can it easily adapt to legislation, regulation or policy change?, , B
+VFM5, 1, VFMMAIN, 2, If this is SaaS, is there a published roadmap for its maintenance and enhancement?, , B
+SECMAIN, 1, , 1, Is it secure?, Is the solution secure or able to be secured?, B
+SWC1, 1, SWCMAIN, 2, Does it comply with QGCIO guidelines?, , B
+SWC2, 1, SWCMAIN, 2, Has a risk assessment been done?, , B
+SWC3, 1, SWCMAIN, 2, Will this provide data into Government open data initiatives?, , B
+SWC4, 1, SWCMAIN, 2, Will this expose the Office to new Cyber threats?, New client groups or new data may cause the Office to be more desirable as a target for hackers, B
+SWC4A, 1, SWC4, 3, Does this correct new data?, , B
+SWC4B, 1, SWC4, 3, Does this provide services to new clients thereby attacting new cyber attacks?, , B
+SWC5, 1, SWCMAIN, 2, Is there a plan to manage the data, meet record keeping and discovery obiligations?, , B
+SWC6, 1, SWCMAIN, 2, Is it capable of detecting and reporting data breaches?, , B
+SWC7, 1, SWCMAIN, 2, It it designed to integrate with other solution in a secure way?, , B

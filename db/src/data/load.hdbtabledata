@@ -1,0 +1,33 @@
+{
+"format_version": 1,
+"imports": [{
+  "target_table": "cdsItems.Question",
+  "source_data": {
+    "data_type": "CSV",
+    "file_name": "question.csv",
+    "has_header": false,
+    "dialect": "HANA",
+    "type_config": {
+      "delimiter": ","
+    }
+  },
+  "import_settings": {
+    "import_columns": ["QID",
+    "VERSION",
+    "PARENT",
+    "LAYER",
+    "QUESTION",
+    "DESCRIPTION",
+    "USAGE"]
+  },
+  "column_mappings": {
+    "QID" : 1,
+    "VERSION" : 2,
+    "PARENT" : 3,
+    "LAYER" : 4,
+    "QUESTION" : 5,
+    "DESCRIPTION" : 6,
+    "USAGE" : 9
+  }
+}]
+}
