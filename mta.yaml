@@ -1,0 +1,29 @@
+ID: dbydchecklist
+_schema-version: '2.0'
+version: 0.0.1
+modules:
+  - name: web
+    type: html5
+    path: web
+    requires:
+      - name: UAA-service
+
+  - name: db
+    type: hdb
+    path: db
+    requires:
+      - name: hdi_db
+
+resources:
+  - name: UAA-service
+    type: com.sap.xs.uaa-space
+    parameters:
+      config-path: ./xs-security.json
+
+  - name: hdi_db
+    parameters:
+      config:
+        schema: DB
+    properties:
+      hdi-container-name: '${service-name}'
+    type: com.sap.xs.hdi-container
