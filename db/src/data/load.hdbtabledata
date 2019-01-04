@@ -19,7 +19,11 @@
     "LAYER",
     "QUESTION",
     "DESCRIPTION",
-    "USAGE"]
+    "USAGE",
+    "HISTORY.CREATEDBY",
+    "HISTORY.CREATEDAT",
+    "HISTORY.CHANGEDBY",
+    "HISTORY.CHANGEDAT"]
   },
   "column_mappings": {
     "QID" : 1,
@@ -28,7 +32,11 @@
     "LAYER" : 4,
     "QUESTION" : 5,
     "DESCRIPTION" : 6,
-    "USAGE" : 7
+    "USAGE" : 7,
+    "HISTORY.CREATEDBY": 8,
+    "HISTORY.CREATEDAT": 9,
+    "HISTORY.CHANGEDBY": 10,
+    "HISTORY.CHANGEDAT": 11
   }
 }]
 }

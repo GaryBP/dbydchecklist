@@ -19,7 +19,7 @@ context cdsItems {
 		@Comment : 'Changed By'
 		CHANGEDBY : UserName;
 		@Comment : 'Change Date'
-		CHANGEAT : SDate;
+		CHANGEDAT : SDate;
 	};
 
 	@Comment : 'Item Details'
