@@ -1,0 +1,13 @@
+service {
+ 	"dbydchecklist.db.data::dbydchecklist.Item"
+	  as "CLItem";
+
+	"dbydchecklist.db.data::dbydchecklist.ItemAnswer"
+	  as "CLItemAnswer";
+
+	"dbydchecklist.db.data::dbydchecklist.Question"
+	  as "CLQuestion";
+
+	association "Answers" principal  "CLItem"("ITEMKEY")
+	multiplicity "1" dependent "CLItemAnswer"("CLItem.ITEMKEY") multiplicity "*";
+}
