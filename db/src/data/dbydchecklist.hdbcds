@@ -1,6 +1,6 @@
 namespace dbydchecklist.db.data;
 
-context cdsItems {
+context dbydchecklist {
 	type UserName : String (40); 
 	type ItemName : String (80);
 	type Description : String (2048);

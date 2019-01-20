@@ -2,7 +2,7 @@
 "format_version": 1,
 "subfolder": "append",
 "imports": [{
-  "target_table": "dbydchecklist.db.data::cdsItems.Question",
+  "target_table": "dbydchecklist.db.data::dbydchecklist.Question",
   "source_data": {
     "data_type": "CSV",
     "file_name": "dbydchecklist.db.data::question.csv",
